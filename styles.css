@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #0066cc;
+    background-color: #9c32da;
     color: white;
     text-align: center;
     padding: 20px;
@@ -26,7 +26,7 @@ section {
 }
 
 h2 {
-    color: #0066cc;
+    color: #9c32dae6;
     margin-bottom: 15px;
 }
 
@@ -56,7 +56,7 @@ article p {
 }
 
 article button {
-    background-color: #0066cc;
+    background-color: #9c32da;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -67,7 +67,7 @@ article button {
 }
 
 article button:hover {
-    background-color: #004999;
+    background-color: #9c32da;
 }
 
 footer {
