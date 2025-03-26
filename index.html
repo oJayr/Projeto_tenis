@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja de Tênis</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
             <img src="https://via.placeholder.com/150" alt="Tênis Nike Air Max">
             <p><strong>Preço:</strong> R$ 499,99</p>
             <p>Conforto e estilo com a tecnologia Air Max.</p>
-            <button>Comprar</button>
+            <button onclick="comprar('Nike Air Max', 499.99)">Comprar</button>
         </article>
 
         <article>
@@ -26,7 +27,7 @@
             <img src="https://via.placeholder.com/150" alt="Tênis Adidas Ultraboost">
             <p><strong>Preço:</strong> R$ 599,99</p>
             <p>Conforto excepcional para o seu treino e uso diário.</p>
-            <button>Comprar</button>
+            <button onclick="comprar('Adidas Ultraboost', 599.99)">Comprar</button>
         </article>
 
         <article>
@@ -34,7 +35,7 @@
             <img src="https://via.placeholder.com/150" alt="Tênis Puma RS-X">
             <p><strong>Preço:</strong> R$ 399,99</p>
             <p>Design moderno e excelente performance.</p>
-            <button>Comprar</button>
+            <button onclick="comprar('Puma RS-X', 399.99)">Comprar</button>
         </article>
     </section>
 
@@ -48,5 +49,12 @@
         <p>Endereço: Rua dos Tênis, 123 - São Paulo, SP</p>
         <p>Telefone: (11) 1234-5678</p>
     </footer>
+
+    <script>
+        // Função que exibe um alerta com o nome do produto e o preço
+        function comprar(nomeProduto, precoProduto) {
+            alert("Você escolheu o " + nomeProduto + " por R$ " + precoProduto.toFixed(2) + ". Sua compra será processada.");
+        }
+    </script>
 </body>
 </html>
